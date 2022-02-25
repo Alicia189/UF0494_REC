@@ -29,6 +29,40 @@ public class Funciones {
 	}
 	
 	// Escribe las sentencias de los apartados 1 y 2
+	public static void VehiculoAfectadoAirbag (int año) {
 	
 
+	
+	Object VehiculoAfectadoAirbag;
+	if (año < 2000  ) {
+		VehiculoAfectadoAirbag = null;
+	} else if  (año < 2005 &&  año >= 2000) {
+		VehiculoAfectadoAirbag = "Los vehiculos de la marca Seat y Opel afectados";
+	} else if ( año < 2015 && año  >= 2006) {
+		VehiculoAfectadoAirbag = "Los vehiculos de marca Reanult estan afectados";
+	} else if (año >= 2016) {
+		VehiculoAfectadoAirbag  = "Consulta en la web de la DGT";
+	}
+
 }
+	
+	public static void calculaCosteTotal(int costes[]) {
+		for (int i = 0; i < CalculaCosteTotal.length; i++) {
+			for (int i=0, i< v.lenght; i++)
+			v [i]= v[i]+ 
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
